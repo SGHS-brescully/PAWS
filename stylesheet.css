@@ -7,6 +7,22 @@ body {
 	width: 100%;
 }
 
+h1{
+	font-family: 'Amatic SC', cursive;
+}
+
+h2{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.menu { 
+	width: 16.7%;
+	position: relative;
+	float: left;
+	text-align: center;
+}
+
+
 /* Navbar container */
 .navbar {
   overflow: hidden;
