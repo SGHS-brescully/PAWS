@@ -1,6 +1,6 @@
 body {
 	margin: 0 0 0 0;
-	background-color: f9f9f9;
+	background-color: #FFD5D0;
 }
 
 #banner img{
@@ -9,10 +9,29 @@ body {
 
 h1{
 	font-family: 'Amatic SC', cursive;
+	text-align:center;
+	font-size: 160px;
 }
 
 h2{
 	font-family: 'Quicksand', sans-serif;
+	text-align:center;
+	font-size: 60px;
+}
+
+h3{
+	font-family: 'Quicksand', sans-serif;
+	text-align:center;
+	font-size: 30px;
+}
+
+footer{
+	font-family: 'Quicksand', sans-serif;
+	text-align:center;
+	font-size: 20px;
+	background-color: #4C6C86;
+	color: white;
+	bottom: 0;
 }
 
 .menu { 
@@ -22,12 +41,25 @@ h2{
 	text-align: center;
 }
 
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+
+
+
+
 
 /* Navbar container */
 .navbar {
   overflow: hidden;
   background-color: #4C6C86;
-  font-family: Arial;
+  font-family: 'Quicksand', sans-serif;
 }
 
 /* Links inside the navbar */
@@ -91,4 +123,52 @@ h2{
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+
+
+
+
+
+
+
+
+/* Contact Form */
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: #4C6C86;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-family: 'Quicksand', sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: #B6DFDF;
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#message{ 
+	font-family: 'Quicksand', sans-serif;	
 }
