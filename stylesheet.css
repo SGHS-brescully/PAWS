@@ -63,8 +63,14 @@ footer{
 }
 
 
+.group_pet{
+	width: 20%;
+	position: center;
+}
 
-
+.map{
+	padding-left: 350px;
+}
 
 
 /* Navbar container */
